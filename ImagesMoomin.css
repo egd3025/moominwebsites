@@ -1,0 +1,12 @@
+
+img{
+    max-height: 25vw;
+}
+.has-pink{
+    height: 55px;
+    background-color: #f78da7
+}
+#footer{
+    position:fixed;
+    bottom:0;
+}

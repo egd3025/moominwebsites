@@ -1,0 +1,227 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #8ed1fc;
+    color:rgb(18, 62, 97);
+    font-weight: 600;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /**flex-wrap: wrap;**/
+  }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 10%;
+    padding: 25px;
+}
+nav{
+    margin: 0;
+    overflow: hidden;
+    background-color: white;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    /* This allow us to arrange list items in a row, without using float */
+    display: inline-block;
+    list-style-type: none;
+}
+ 
+/* Create a style for the first level items */
+nav > ul > li > a {
+    color: #aaa;
+    background-color:#fff064;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
+nav li > ul li{
+    display: block;
+}
+ 
+nav  li > ul li a {
+    color: #111;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+ 
+/* Change the background color when mouse over items */
+nav li:hover {
+    background-color: #666;
+}
+/* display the submenu on mouse over main menu item*/
+nav li:hover > ul{
+    position:absolute;
+    display : block;
+}
+  
+
+
+
+h1{
+    color: white;
+    font-size:xx-large;
+
+}
+
+.has-green h1{
+    margin-bottom: 0%;
+}
+
+.description-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #6ecc94;
+    padding: 10px;
+}
+.tinyimage{
+    max-width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.character-table{
+    padding: 30px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+tbody td {
+    min-width: 30rem;
+    max-width: 15rem;
+
+}
+
+th{
+    color: white;
+    font-size:2rem;
+    margin-top: 0px;
+}
+
+td{
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #073f1e;
+}
+
+td .description{
+    color: rgb(60, 60, 60);
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+.character-image{
+    width: 70%;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footnote{
+    padding: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.has-pink{
+    height: 55px;
+    background-color: #f78da7
+}
+
+.has-green{
+    background-color: #6ecc94;
+    padding: 10px;
+}
+
+p , .description{
+    font-weight:600;
+    font-size: large;
+}
+
+.has-green p{
+    color: rgb(14, 70, 34);
+    margin-top: 0%;
+
+}
+
+
+.information{
+    padding: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    vertical-align: middle;
+}
+.image{
+    padding: 25px;
+    flex-basis:content;
+    max-height:400;
+    min-width: 550px;
+    align-content: right;
+    text-justify: space-around;
+}
+.button{
+    margin: 0 0 0 0;   
+}
+
+.button:hover{
+    cursor: pointer;
+}
+.astyle{
+    text-align: center;
+    background-color: #fff064;
+    padding: 10px;
+    color: black;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: medium;
+    margin-right: 20px;
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    height: 400px;
+    justify-content: space-around;
+}
+.box:nth-of-type(1){
+    background-color: #8ed1fc;
+}
+.box:nth-of-type(2){
+    background-color: #6ecc94;
+}
+
+#footer{
+    position:fixed;
+    bottom:0;
+}
