@@ -13,10 +13,10 @@ Next, select __Raw__ to view the source code for your file.
 ![image](https://github.com/egd3025/moominwebsites/assets/113457405/38b2ca2a-6fd5-4cdd-bde8-10e97a3c5c9b)
 
 
-Once you have this page open, change the URL from raw.githubusercontent.com
+Once you have this page open, change the URL from __raw.githubusercontent.com__
 
 ![image](https://github.com/egd3025/moominwebsites/assets/113457405/73566f76-4b1e-4ade-87bd-7577fccbce45)
 
 
-To: raw.githack.com and hit enter. Voila! You can view your HTML file directly!
+To: __raw.githack.com__ and hit enter. Voila! You can view your HTML file directly!
 ![image](https://github.com/egd3025/moominwebsites/assets/113457405/2c27a77c-fb3f-4173-b486-b710817ff0eb)
