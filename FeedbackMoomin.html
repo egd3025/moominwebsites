@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Feedback on Moomin</title>
+        <link rel="stylesheet" type="text/css" href="FeedbackMoomin.css" />
+    </head>
+    <body>
+        <header>
+            <a href="http://student.uncw.edu/egd3025/AboutMoomin.html"><img class="logo" src = "https://assets.moomin.com/uploads/2016/12/Moomin-logo-black2.png" alt="MoominLogo"/></a>
+        </header>
+
+        <main>
+            <!-- subscription form to sign up for moomin information and specials... newsletter-->
+            <!--3 textboxes
+                - fist name, last name, email -->
+            <!--Checkboxes and Radio buttons 
+                - radio button to check the topics you are interested in recieving emails for -->
+            <!--restricted input (other than a required field)
+                - restrict age to be 1-99
+                - drop down to select country?
+                - yes or no opt in/out for promotional sale emails?
+                - "would you like to recieve _____ emails as well as _____"-->
+            <!--1 required field-->
+
+            <h1 class="center">Register into the Moomin community now! </h1>
+            <div class="center">
+                <img class="moomintroll" src="https://kids.azercell.com/static_env/l/images/elastic/multisummary/urlpreview/az_ddk_azercell-az_ddk_azercell_moomin-kids.azercell.com/preview1/512x512/auto/az-ddk-azercell-moomin.png?v=1573037483X20230912133642" alt="PurpleMoomin"/>
+            </div>
+
+            <form method="post" action="https://miswebapps.uncw.edu/mis310/form-submit.aspx">
+
+                <section role="region">
+                    <h2 id="personal-info">Sign Up</h2>
+                        <div class="info">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" id="first-name" required/>
+                        </div>
+                        <div class="info">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name" />
+                        </div>
+                        
+                        <div class="info">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required/>
+                        </div>
+                        <div class="info">
+                            <label for="birth-date">Date of Birth</label>
+                            <input type="date" name="birth-date" id="birth-date" />
+                        </div>
+                </section>
+
+                <section>
+                    <h2 id="preferences">Preferences</h2>
+                        <div class="question-block">
+                            <label for="fav-character">Who is your favorite character? (Optional)</label>
+                        </div>
+                        <div class="answer">
+                            <select name="fav-character" id="fav-character">
+                                <option value="">(Optional)</option>
+                                <option value="Moomintroll">Moomintroll</option>
+                                <option value="Little My">Little My</option>
+                                <option value="Snufkin">Snufkin</option>
+                                <option value="Snorkmaiden">Snorkmaiden</option>
+                                <option value="Moominmamma">Moominmamma</option>
+                                <option value="Moominpappa">Moominpappa</option>
+                                <option value="Stinky">Stinky</option>
+                                <option value="Hattifatteners">Hattifatteners</option>
+                                <option value="The Groke">The Groke</option>
+                                <option value="Sniff">Sniff</option>
+                            </select>
+                        </div>
+                        <fieldset name="interests" class="content-pref">
+                            <div class="question-block">
+                                <label for="interests">What type of content are you interested in? (Optional)</label>
+                            </div>
+                            <ul class="interest-answers">
+                                <li>
+                                    <label for="q1-a1">
+                                        <input type="radio" id="q1-a1" name="interests a1" value="shopping" />
+                                        Products and Sales
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q1-a2">
+                                        <input type="radio" id="q1-a2" name="interests a2" value="facts" />
+                                         Character Facts
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q1-a3">
+                                        <input type="radio" id="q1-a3" name="interests a3" value="news" />
+                                        Recent News
+                                    </label>
+                                    
+                                </li>
+                              </ul>
+                        </fieldset>
+                </section>
+
+                <section>
+                    <div>
+                        <label class="subscribe" for="subscribeNews">Recieve emails for exclusive Moomin news and events</label>
+                        <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" checked/>
+                    </div>
+                </section>
+
+
+
+                <div class="center">
+                    <button type="submit">SUBMIT</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <div class = "has-pink">
+                <p class="footnote">To learn more about Moomin visit <a href = "https://www.moomin.com/en/">HERE!</a></p>
+            </div>
+      </footer>
+    </body>
+</html>
